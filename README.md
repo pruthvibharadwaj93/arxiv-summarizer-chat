@@ -1,12 +1,15 @@
 ## ArXiv Paper Ranking, Summarizing and Email Automation
 
 This project aims to fetch all papers related to a certain topic that are posted to Arxiv in a particular month and to build a RAG pipeline to analyse the papers.
-Broadly, the following functionalities are implemented in the current version of this repo
+Broadly, the following functionalities are implemented in the current version of this repo.
+
 - Fetching Papers Data from Arxiv filtered by month and topic
 - Vector Embedding and Similarity Scoring for Ranking papers
 - Parsing and Cleaning text data from pdfs
 - Chunking, Vector Embedding and RAG pipeline based Question-Answering
-- Automated Email System for Paper Recommendation 
+- Automated Email System for Paper Recommendation
+
+For the purpose of this POC, I have selected the Topic as "RAG" and the month as "Nov 2024". There were 112 papers available with these filters on. The Ranking and Question-Answering tasks were performed on this corpus.
 
 ## Folder Structure
 
@@ -18,6 +21,7 @@ Broadly, the following functionalities are implemented in the current version of
 
 ## Next Steps
 
+- Include more parameters like Relevance, etc to finetune and personalise Ranking
 - Build a Chatbot to answer specific questions about the papers
 - Setup scripts for automating Email paper recommedation for different topics on a monthly basis
 - Build a Paper Recommendation website capable of understanding user's interests
