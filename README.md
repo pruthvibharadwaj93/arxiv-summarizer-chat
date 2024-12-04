@@ -11,6 +11,13 @@ Broadly, the following functionalities are implemented in the current version of
 
 For the purpose of this POC, I have selected the Topic as "RAG" and the month as "Nov 2024". There were 112 papers available with these filters on. The Ranking and Question-Answering tasks were performed on this corpus.
 
+## Next Steps
+
+- Include more parameters like Relevance, etc to finetune and personalise Ranking
+- Build a Chatbot to answer specific questions about the papers
+- Setup scripts for automating Email paper recommedation for different topics on a monthly basis
+- Build a Paper Recommendation website capable of understanding user's interests
+
 ## Folder Structure
 
 - `backend/`: Contains backend logic for the different modules
@@ -18,10 +25,3 @@ For the purpose of this POC, I have selected the Topic as "RAG" and the month as
 - ranking.ipynb - Contains code for fetching paper data and using that to rank papers
 - rag.ipynb - Contains code for RAG based QuestionAnswering
 - email.ipynb - Contains code for setting up email recommendation
-
-## Next Steps
-
-- Include more parameters like Relevance, etc to finetune and personalise Ranking
-- Build a Chatbot to answer specific questions about the papers
-- Setup scripts for automating Email paper recommedation for different topics on a monthly basis
-- Build a Paper Recommendation website capable of understanding user's interests
