@@ -1,19 +1,20 @@
-# ArXiv RAG Bot
+## ArXiv Paper Ranking, Summarizing and Email Automation
 
-This project integrates Retrieval-Augmented Generation (RAG) and Neo4j for:
-- Chatbot: Answers specific questions based on last week's papers.
-- Email System: Summarizes and emails top papers weekly.
+This project aims to fetch all papers related to a certain topic that are posted to Arxiv in a particular month and to build a RAG pipeline to analyse the papers.
+Broadly, the following functionalities are implemented in the current version of this repo
+- Fetching Papers Data from Arxiv filtered by month and topic
+- Vector Embedding and Similarity Scoring for Ranking papers
+- Parsing and Cleaning text data from pdfs
+- Chunking, Vector Embedding and RAG pipeline based Question-Answering
+- Automated Email System for Paper Recommendation 
 
 ## Folder Structure
-- `backend/`: Contains backend logic for chatbot and email workflows.
-- `frontend/`: Streamlit-based chatbot interface.
-- `data/`: Stores embeddings, fetched paper data, and logs.
-- `tests/`: Unit tests for backend workflows.
-- `config/`: Configuration files for Neo4j and email settings.
-- `scripts/`: Utility scripts for setup and automation.
 
-## Setup
-1. Clone the repository:
-   ```bash
-   git clone <repo-url>
-   cd arxiv-rag-bot
+- `backend/`: Contains backend logic for fetching arxiv papers and summarizing them
+- `data/`: Stores embeddings, fetched paper data, and logs.
+
+## Next Steps
+
+- Build a Chatbot to answer specific questions about the papers
+- Setup scripts for automating Email paper recommedation for different topics on a monthly basis
+- Build a Paper Recommendation website capable of understanding user's interests
