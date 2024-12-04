@@ -15,8 +15,8 @@ For the purpose of this POC, I have selected the Topic as "RAG" and the month as
 
 - Include more parameters like Relevance, etc to finetune and personalise Ranking
 - Build a Chatbot to answer specific questions about the papers
-- Setup scripts for automating Email paper recommedation for different topics on a monthly basis
-- Build a Paper Recommendation website capable of understanding user's interests
+- Setup scripts for automating paper recommedation Emails for different topics on a monthly basis
+- Build a Paper Recommendation website capable of understanding user's interests and providing personalised recommendations based on latest papers
 
 ## Folder Structure
 
