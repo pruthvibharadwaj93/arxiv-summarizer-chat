@@ -10,8 +10,11 @@ Broadly, the following functionalities are implemented in the current version of
 
 ## Folder Structure
 
-- `backend/`: Contains backend logic for fetching arxiv papers and summarizing them
-- `data/`: Stores embeddings, fetched paper data, and logs.
+- `backend/`: Contains backend logic for the different modules
+- `data/`: Stores embeddings, fetched paper data, and logs
+- ranking.ipynb - Contains code for fetching paper data and using that to rank papers
+- rag.ipynb - Contains code for RAG based QuestionAnswering
+- email.ipynb - Contains code for setting up email recommendation
 
 ## Next Steps
 
