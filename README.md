@@ -1,4 +1,4 @@
-## ArXiv Paper Ranking, Summarizing and Email Automation
+## ArXiv Paper Ranking and RAG based Question-Answering
 
 This project aims to fetch all papers related to a certain topic that are posted to Arxiv in a particular month and to build a RAG pipeline to analyse the papers.
 Broadly, the following functionalities are implemented in the current version of this repo.
