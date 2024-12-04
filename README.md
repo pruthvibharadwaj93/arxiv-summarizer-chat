@@ -7,15 +7,15 @@ Broadly, the following functionalities are implemented in the current version of
 - Vector Embedding and Similarity Scoring for Ranking papers
 - Parsing and Cleaning text data from pdfs
 - Chunking, Vector Embedding and RAG pipeline based Question-Answering
-- Automated Email System for Paper Recommendation
+
 
 For the purpose of this POC, I have selected the Topic as "RAG" and the month as "Nov 2024". There were 112 papers available with these filters on. The Ranking and Question-Answering tasks were performed on this corpus.
 
 ## Next Steps
 
 - Include more parameters like Relevance, etc to finetune and personalise Ranking
-- Build a Chatbot to answer specific questions about the papers
 - Setup scripts for automating paper recommedation Emails for different topics on a monthly basis
+- Build a Chatbot to answer specific questions about the papers
 - Build a Paper Recommendation website capable of understanding user's interests and providing personalised recommendations based on latest papers
 
 ## Folder Structure
