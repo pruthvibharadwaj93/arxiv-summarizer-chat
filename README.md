@@ -1,6 +1,6 @@
 ## ArXiv Paper Ranking and RAG based Question-Answering
 
-### OBJECTIVE
+### Objective
 
 This project aims to fetch all papers related to a certain topic that are posted to Arxiv in a particular month and to build a RAG pipeline to analyse the papers.
 
