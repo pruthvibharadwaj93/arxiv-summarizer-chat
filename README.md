@@ -1,6 +1,11 @@
 ## ArXiv Paper Ranking and RAG based Question-Answering
 
+### OBJECTIVE
+
 This project aims to fetch all papers related to a certain topic that are posted to Arxiv in a particular month and to build a RAG pipeline to analyse the papers.
+
+### Current Capabilities
+
 Broadly, the following functionalities are implemented in the current version of this repo.
 
 - Fetching Papers Data from Arxiv filtered by month and topic
@@ -8,6 +13,7 @@ Broadly, the following functionalities are implemented in the current version of
 - Parsing and Cleaning text data from pdfs
 - Chunking, Vector Embedding and RAG pipeline based Question-Answering
 
+### Details
 
 For the purpose of this POC, I have selected the Topic as "RAG" and the month as "Nov 2024". There were 112 papers available with these filters on. 
 The Ranking and Question-Answering tasks were performed on this corpus.
@@ -31,14 +37,14 @@ The idea is to use the answers as content for monthly automated mails. The Quest
 More details can be found in RAG.ipynb.
 The output can be found in the top5_rag_nov24.pdf file. 
 
-## Next Steps
+### Next Steps
 
 - Include more parameters like Relevance, etc to finetune and personalise Ranking
 - Setup scripts for automating paper recommedation Emails for different topics on a monthly basis
 - Build a Chatbot to answer specific questions about the papers
 - Build a Paper Recommendation website capable of understanding user's interests and providing personalised recommendations based on latest papers
 
-## Folder Structure
+### Folder Structure
 
 - `backend/`: Contains backend logic for the different modules
 - `data/`: Stores embeddings, fetched paper data, and logs
